@@ -1,0 +1,15 @@
+[Inputs]
+awe
+=A[31:0]=
+=B[31:0]=
+=s[4:0]=
+=op[3:0]=
+=L[2:0]=
+=S[1:0]=
+[Outputs]
+=result[31:0]=
+=aluex[4:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel alu
+

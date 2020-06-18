@@ -1,0 +1,3 @@
+vhdtdtfi -lang verilog -prj CPU -o E:/university/computer_struct/P0-P/P7/CPU/CP0.tfi -lib work E:/university/computer_struct/P0-P/P7/CPU//EPC.v -module CP0 -template D:/sf/veri_log/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work E:/university/computer_struct/P0-P/P7/CPU/EPC.v -lang verilog -prj CPU -o CP0.spl -module CP0 -template D:/sf/veri_log/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 CP0.spl E:/university/computer_struct/P0-P/P7/CPU/CP0.sym 

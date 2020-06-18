@@ -1,0 +1,2 @@
+vhdtdtfi -lib work E:/university/computer_struct/P0-P/P7/CPU/D.v -lang verilog -prj CPU -o D.spl -module D -template D:/sf/veri_log/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 D.spl E:/university/computer_struct/P0-P/P7/CPU/D.sym 

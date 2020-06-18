@@ -1,0 +1,18 @@
+ISim log file
+Running: E:\university\computer_struct\P0-P\P7\CPU\mips_txt_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/university/computer_struct/P0-P/P7/CPU/mips_txt_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING:  For instance CPU/D/, width 1 of formal port I_res is not equal to width 32 of actual constant.
+WARNING:  For instance CPU/DM/, width 1 of formal port mr is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+@00003000:$ 5<=12340000
+@00003004:$ 5<=12346589
+@00003008:*00000000<=65890000
+@0000300c:$ 6<=65890000
+@00003010:*00000000<=89890000
+@00003014:$ 6<=89890000

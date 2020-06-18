@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+CPU instance_name (
+    .reset(reset), 
+    .clk(clk), 
+    .ord(ord), 
+    .hint(hint), 
+    .owd(owd), 
+    .oadd(oadd), 
+    .owe(owe)
+    );
+
+

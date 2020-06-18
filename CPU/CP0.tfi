@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+CP0 instance_name (
+    .add(add), 
+    .wd(wd), 
+    .rd(rd), 
+    .I_EPC(I_EPC), 
+    .O_EPC(O_EPC), 
+    .clk(clk), 
+    .we(we), 
+    .reset(reset)
+    );
+
+

@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+BRIDGE instance_name (
+    .wd(wd), 
+    .add(add), 
+    .we(we), 
+    .rd1(rd1), 
+    .rd2(rd2), 
+    .hit0(hit0), 
+    .hit1(hit1), 
+    .rd(rd)
+    );
+
+

@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj CPU -o E:/university/computer_struct/P0-P/P7/CPU/E_I_C.tfi -lib work E:/university/computer_struct/P0-P/P7/CPU//E_I_C.v -module E_I_C -template D:/sf/veri_log/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

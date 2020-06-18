@@ -1,0 +1,14 @@
+[Inputs]
+reset
+clk
+hit
+=owd[31:0]=
+=hwint[5:0]=
+[Outputs]
+owe
+=ord[31:0]=
+=oadd[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel CPU
+

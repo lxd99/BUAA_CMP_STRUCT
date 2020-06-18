@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+E_I_C instance_name (
+    .M_ex(M_ex), 
+    .hit0(hit0), 
+    .hit1(hit1), 
+    .L(L), 
+    .S(S), 
+    .add(add), 
+    .hwint(hwint), 
+    .SR(SR), 
+    .exl(exl), 
+    .ex(ex), 
+    .cp0_we(cp0_we)
+    );
+
+

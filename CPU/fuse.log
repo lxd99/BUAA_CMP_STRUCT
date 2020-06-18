@@ -1,0 +1,83 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/university/computer_struct/P0-P/P7/CPU/mips_txt_isim_beh.exe" -prj "E:/university/computer_struct/P0-P/P7/CPU/mips_txt_beh.prj" "work.mips_txt" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/university/computer_struct/P0-P/P7/CPU/W.v" into library work
+Analyzing Verilog file "E:/university/computer_struct/P0-P/P7/CPU/Trans.v" into library work
+Analyzing Verilog file "E:/university/computer_struct/P0-P/P7/CPU/Stall.v" into library work
+Analyzing Verilog file "E:/university/computer_struct/P0-P/P7/CPU/pc_alu.v" into library work
+Analyzing Verilog file "E:/university/computer_struct/P0-P/P7/CPU/PC.v" into library work
+Analyzing Verilog file "E:/university/computer_struct/P0-P/P7/CPU/M.v" into library work
+Analyzing Verilog file "E:/university/computer_struct/P0-P/P7/CPU/IM.v" into library work
+Analyzing Verilog file "E:/university/computer_struct/P0-P/P7/CPU/HL_ALU.v" into library work
+Analyzing Verilog file "E:/university/computer_struct/P0-P/P7/CPU/grf.v" into library work
+Analyzing Verilog file "E:/university/computer_struct/P0-P/P7/CPU/F.v" into library work
+Analyzing Verilog file "E:/university/computer_struct/P0-P/P7/CPU/E_I_C.v" into library work
+Analyzing Verilog file "E:/university/computer_struct/P0-P/P7/CPU/EPC.v" into library work
+Analyzing Verilog file "E:/university/computer_struct/P0-P/P7/CPU/E.v" into library work
+Analyzing Verilog file "E:/university/computer_struct/P0-P/P7/CPU/dm.v" into library work
+Analyzing Verilog file "E:/university/computer_struct/P0-P/P7/CPU/D.v" into library work
+Analyzing Verilog file "E:/university/computer_struct/P0-P/P7/CPU/CONTROL.v" into library work
+WARNING:HDLCompiler:1142 - "E:/university/computer_struct/P0-P/P7/CPU/CONTROL.v" Line 1: Compiler directive `timescale is not allowed here
+Analyzing Verilog file "E:/university/computer_struct/P0-P/P7/CPU/cmp.v" into library work
+Analyzing Verilog file "E:/university/computer_struct/P0-P/P7/CPU/alu.v" into library work
+Analyzing Verilog file "E:/university/computer_struct/P0-P/P7/CPU/P7_standard_timer_2019.v" into library work
+Analyzing Verilog file "E:/university/computer_struct/P0-P/P7/CPU/CPU.v" into library work
+WARNING:HDLCompiler:35 - "E:/university/computer_struct/P0-P/P7/CPU/CPU.v" Line 177: <D_pc> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "E:/university/computer_struct/P0-P/P7/CPU/CPU.v" Line 180: <D_D1> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "E:/university/computer_struct/P0-P/P7/CPU/CPU.v" Line 182: <D_gwe1> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "E:/university/computer_struct/P0-P/P7/CPU/CPU.v" Line 280: <E_R1> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "E:/university/computer_struct/P0-P/P7/CPU/CPU.v" Line 281: <E_A2> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "E:/university/computer_struct/P0-P/P7/CPU/CPU.v" Line 282: <E_gwe> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "E:/university/computer_struct/P0-P/P7/CPU/CPU.v" Line 284: <E_E1> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "E:/university/computer_struct/P0-P/P7/CPU/CPU.v" Line 285: <E_delay> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "E:/university/computer_struct/P0-P/P7/CPU/CPU.v" Line 287: <busy> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "E:/university/computer_struct/P0-P/P7/CPU/CPU.v" Line 378: <M_W1> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "E:/university/computer_struct/P0-P/P7/CPU/CPU.v" Line 379: <M_A2> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "E:/university/computer_struct/P0-P/P7/CPU/CPU.v" Line 380: <M_gwe> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "E:/university/computer_struct/P0-P/P7/CPU/CPU.v" Line 382: <M_delay> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "E:/university/computer_struct/P0-P/P7/CPU/CPU.v" Line 480: <W_pc> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "E:/university/computer_struct/P0-P/P7/CPU/CPU.v" Line 481: <W_A2> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "E:/university/computer_struct/P0-P/P7/CPU/CPU.v" Line 482: <W_gwe> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "E:/university/computer_struct/P0-P/P7/CPU/CPU.v" Line 499: <F_W1> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "E:/university/computer_struct/P0-P/P7/CPU/CPU.v" Line 500: <F_A2> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "E:/university/computer_struct/P0-P/P7/CPU/CPU.v" Line 501: <F_gwe> is already implicitly declared earlier.
+Analyzing Verilog file "E:/university/computer_struct/P0-P/P7/CPU/BRIDGE.v" into library work
+Analyzing Verilog file "E:/university/computer_struct/P0-P/P7/CPU/mips.v" into library work
+Analyzing Verilog file "E:/university/computer_struct/P0-P/P7/CPU/tb_xry.v" into library work
+Analyzing Verilog file "D:/sf/veri_log/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "E:/university/computer_struct/P0-P/P7/CPU/CPU.v" Line 240: Size mismatch in connection of port <I_res>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "E:/university/computer_struct/P0-P/P7/CPU/CPU.v" Line 431: Size mismatch in connection of port <mr>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module Stall
+Compiling module Trans
+Compiling module PC
+Compiling module IM
+Compiling module CONTROL
+Compiling module pc_alu
+Compiling module D
+Compiling module GRF
+Compiling module cmp
+Compiling module E
+Compiling module alu
+Compiling module HL_ALU
+Compiling module M
+Compiling module DM
+Compiling module E_I_C
+Compiling module CP0
+Compiling module W
+Compiling module F
+Compiling module CPU
+Compiling module BRIDGE
+Compiling module TC
+Compiling module mips
+Compiling module mips_txt
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 9 sub-compilation(s) to finish...
+Compiled 24 Verilog Units
+Built simulation executable E:/university/computer_struct/P0-P/P7/CPU/mips_txt_isim_beh.exe
+Fuse Memory Usage: 36788 KB
+Fuse CPU Usage: 1265 ms

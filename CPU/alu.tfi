@@ -1,0 +1,17 @@
+
+
+
+// Instantiate the module
+alu instance_name (
+    .A(A), 
+    .B(B), 
+    .s(s), 
+    .op(op), 
+    .result(result), 
+    .awe(awe), 
+    .L(L), 
+    .S(S), 
+    .aluex(aluex)
+    );
+
+

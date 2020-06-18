@@ -1,0 +1,19 @@
+[Inputs]
+clk
+we
+we1
+we2
+bd
+reset
+=add[4:0]=
+=wd[31:0]=
+=I_EPC[31:0]=
+=ex[4:0]=
+=hwint[5:0]=
+[Outputs]
+=rd[31:0]=
+=O_EPC[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel CP0
+

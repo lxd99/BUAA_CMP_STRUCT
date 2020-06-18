@@ -1,0 +1,3 @@
+vhdtdtfi -lib work E:/university/computer_struct/P0-P/P7/CPU/alu.v -lang verilog -prj CPU -o alu.spl -module alu -template D:/sf/veri_log/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 alu.spl E:/university/computer_struct/P0-P/P7/CPU/alu.sym 
+vhdtdtfi -lang verilog -prj CPU -o E:/university/computer_struct/P0-P/P7/CPU/alu.tfi -lib work E:/university/computer_struct/P0-P/P7/CPU//alu.v -module alu -template D:/sf/veri_log/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

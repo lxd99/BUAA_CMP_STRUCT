@@ -1,0 +1,10 @@
+vhdtdtfi -lib work E:/university/computer_struct/P0-P/P7/CPU/mips.v -lang verilog -prj CPU -o mips.spl -module mips -template D:/sf/veri_log/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 mips.spl E:/university/computer_struct/P0-P/P7/CPU/mips.sym 
+vhdtdtfi -lib work E:/university/computer_struct/P0-P/P7/CPU/mips.v -lang verilog -prj CPU -o mips.spl -module mips -template D:/sf/veri_log/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 mips.spl E:/university/computer_struct/P0-P/P7/CPU/mips.sym 
+vhdtdtfi -lib work E:/university/computer_struct/P0-P/P7/CPU/mips.v -lang verilog -prj CPU -o mips.spl -module mips -template D:/sf/veri_log/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 mips.spl E:/university/computer_struct/P0-P/P7/CPU/mips.sym 
+vhdtdtfi -lib work E:/university/computer_struct/P0-P/P7/CPU/mips.v -lang verilog -prj CPU -o mips.spl -module mips -template D:/sf/veri_log/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 mips.spl E:/university/computer_struct/P0-P/P7/CPU/mips.sym 
+vhdtdtfi -lib work E:/university/computer_struct/P0-P/P7/CPU/mips.v -lang verilog -prj CPU -o mips.spl -module mips -template D:/sf/veri_log/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 mips.spl E:/university/computer_struct/P0-P/P7/CPU/mips.sym 

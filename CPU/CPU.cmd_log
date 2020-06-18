@@ -1,0 +1,13 @@
+vhdtdtfi -lang verilog -prj CPU -o E:/university/computer_struct/P0-P/P7/CPU/CPU.tfi -lib work E:/university/computer_struct/P0-P/P7/CPU//CPU.v -module CPU -template D:/sf/veri_log/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work E:/university/computer_struct/P0-P/P7/CPU/CPU.v -lang verilog -prj CPU -o CPU.spl -module CPU -template D:/sf/veri_log/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 CPU.spl E:/university/computer_struct/P0-P/P7/CPU/CPU.sym 
+vhdtdtfi -lib work E:/university/computer_struct/P0-P/P7/CPU/CPU.v -lang verilog -prj CPU -o CPU.spl -module CPU -template D:/sf/veri_log/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 CPU.spl E:/university/computer_struct/P0-P/P7/CPU/CPU.sym 
+vhdtdtfi -lib work E:/university/computer_struct/P0-P/P7/CPU/CPU.v -lang verilog -prj CPU -o CPU.spl -module CPU -template D:/sf/veri_log/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 CPU.spl E:/university/computer_struct/P0-P/P7/CPU/CPU.sym 
+vhdtdtfi -lib work E:/university/computer_struct/P0-P/P7/CPU/CPU.v -lang verilog -prj CPU -o CPU.spl -module CPU -template D:/sf/veri_log/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 CPU.spl E:/university/computer_struct/P0-P/P7/CPU/CPU.sym 
+vhdtdtfi -lib work E:/university/computer_struct/P0-P/P7/CPU/CPU.v -lang verilog -prj CPU -o CPU.spl -module CPU -template D:/sf/veri_log/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 CPU.spl E:/university/computer_struct/P0-P/P7/CPU/CPU.sym 
+vhdtdtfi -lib work E:/university/computer_struct/P0-P/P7/CPU/CPU.v -lang verilog -prj CPU -o CPU.spl -module CPU -template D:/sf/veri_log/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 CPU.spl E:/university/computer_struct/P0-P/P7/CPU/CPU.sym 
